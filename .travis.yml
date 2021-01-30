@@ -10,6 +10,7 @@ addons:
 install:
   - sudo apt-get install -y doxygen graphviz
   - sudo apt-get install libboost-test-dev -y
+  - sudo apt-get install libboost-program-options-dev -y
 script:
  - cmake .
  - cmake --build .
