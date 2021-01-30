@@ -14,7 +14,7 @@ install:
 script:
  - cmake .
  - cmake --build .
- - cmake --build . --target test_bayan
+ - cmake --build . --target bayan_test
  - cmake --build . --target package
  - doxygen Doxyfile
 deploy:
